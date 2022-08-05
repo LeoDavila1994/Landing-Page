@@ -219,6 +219,7 @@
   padding: 10px 40px;
   font-weight: 600;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .footer__contact {

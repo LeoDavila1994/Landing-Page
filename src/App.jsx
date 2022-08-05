@@ -1,4 +1,5 @@
 import './App.css';
+import logo from "./images/logo.svg";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
       <header className='hero'>
         <nav className='hero__nav container'>
           <figure className='hero__logo'>
-            <img src="../src/images/logo.svg" alt="logo" className='hero__huddle' />
+            <img src={logo} alt="logo" className='hero__huddle'/>
           </figure>
           <a href="#" className='hero__cta'>Try it free</a>
         </nav>
