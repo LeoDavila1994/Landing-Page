@@ -1,5 +1,16 @@
 import './App.css';
 import logo from "./images/logo.svg";
+import smk from "./images/screen-mockups.svg";
+import community from "./images/icon-communities.svg";
+import msg from "./images/icon-messages.svg";
+import grow from "./images/illustration-grow-together.svg";
+import flowing from "./images/illustration-flowing-conversation.svg";
+import users from "./images/illustration-your-users.svg";
+import phone from "./images/icon-phone.svg";
+import email from "./images/icon-email.svg";
+import fb from "./images/fb.svg";
+import instagram from "./images/instagram.svg";
+import twitter from "./images/twitter.svg";
 
 function App() {
 
@@ -19,16 +30,16 @@ function App() {
             <a href="#" className="cta"> Get Started For Free</a>
           </div>
           <figure className='hero__picture'>
-            <img src="../src/images/screen-mockups.svg" alt="" className='hero__img' />
+            <img src={smk} alt="" className='hero__img' />
           </figure>
           <div className="hero__numbers">
             <div className="hero__item">
-              <img src="../src/images/icon-communities.svg" alt="" className='hero__icon' />
+              <img src={community} alt="" className='hero__icon' />
               <h3 className="hero__number">1.4k+</h3>
               <p className="hero__community">Communities Formed</p>
             </div>
             <div className="hero__item">
-              <img src="../src/images/icon-messages.svg" alt="" className='hero__icon' />
+              <img src={msg} alt="" className='hero__icon' />
               <h3 className="hero__number">2.7m+</h3>
               <p className="hero__community">Messages Sent</p>
             </div>
@@ -40,7 +51,7 @@ function App() {
         <section className='section'>
           <div className="section__container container">
             <figure className="section__picture">
-              <img src="../src/images/illustration-grow-together.svg" alt="" className='section__img' />
+              <img src={grow} alt="" className='section__img' />
             </figure>
             <div className="section__texts">
               <h2 className="subtitle">Grow Together</h2>
@@ -51,7 +62,7 @@ function App() {
         <section className='section section--white'>
           <div className="section__container container section__container--inverse">
             <figure className="section__picture">
-              <img src="../src/images/illustration-flowing-conversation.svg" alt="" className='section__img' />
+              <img src={flowing} alt="" className='section__img' />
             </figure>
             <div className="section__texts">
               <h2 className="subtitle">Flowing Conversation</h2>
@@ -64,7 +75,7 @@ function App() {
         <section className='section'>
           <div className="section__container container">
             <figure className="section__picture">
-              <img src="../src/images/illustration-your-users.svg" alt="" className='section__img' />
+              <img src={users}alt="" className='section__img' />
             </figure>
             <div className="section__texts">
               <h2 className="subtitle">Your Users</h2>
@@ -95,20 +106,20 @@ function App() {
             <img src="" alt="" />
             <p className="footer__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique illo molestias fuga harum? Incidunt, distinctio ea dolor doloribus quibusdam dignissimos.</p>
             <div className="footer__contact">
-              <img src="../src/images/icon-phone.svg" alt="" className='footer__img' />
+              <img src={phone} alt="" className='footer__img' />
             </div>
             <div className="footer__contact footer__contact--email">
-              <img src="../src/images/icon-email.svg" alt="" className='footer__img' />
+              <img src={email} alt="" className='footer__img' />
             </div>
             <div className="footer__social">
               <a href="#" className='footer__link'>
-                <img src="../src/images/fb.svg" alt="" className='footer__icon' />
+                <img src={fb} alt="" className='footer__icon' />
               </a>
               <a href="#" className='footer__link'>
-                <img src="../src/images/instagram.svg" alt="" className='footer__icon' />
+                <img src={instagram} alt="" className='footer__icon' />
               </a>
               <a href="#" className='footer__link'>
-                <img src="../src/images/twitter.svg" alt="" className='footer__icon' />
+                <img src={twitter} alt="" className='footer__icon' />
               </a>
             </div>
           </section>
